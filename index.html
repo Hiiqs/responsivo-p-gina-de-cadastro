@@ -1,0 +1,86 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+    <title>GioFisio</title>
+
+    <link rel="stylesheet" type="text/css" href="Assets/Style/style.css"
+   
+</head>
+
+<body>
+    <header>
+        <div class="titulosite1">
+            <h1>GioFisio</h1>
+        </div>
+        <div class="titulosite2">
+            <h2>Clínica de Fisioterapia</h2>
+        </div>
+        
+    </header>
+    <fieldset>
+    <h2 id="txtcadastro">Cadastro de clientes</h2>
+    <form method="post">
+        <div class="NeS">
+        <label id="nome">Nome: </br>
+            <input type="text" required>
+        </label>
+        
+        <label id="sobrenome">Sobrenome: </br>
+            <input type="text" required>
+        </label>
+        
+        </div>
+        <div class="EeT">
+        <label id="email">E-mail: </br>
+            <input type="email" required>
+        </label>
+        
+        <label id="tel">Telefone: </br>
+            <input type="number" required minlength="11">
+        </label>
+        
+        </div>
+        <div class="SeDt">
+        <label id="sexo">Sexo: </br>
+            <select name="sexo" size="1" required>
+                <option></option>
+                <option>Masculino</option>
+                <option>Feminino</option>
+                <option>Outro</option>
+            </select>
+        </label>
+       
+        <label id="dtnasc">Data de Nascimento: </br>
+            <input type="date" required>
+        </label>
+        
+        </div>
+        <div class="EeC">
+        <label id="est">Cidade: </br>
+            <input type="text" required>
+        </label>
+        
+        <label id="cid">Estado: </br> 
+            <input type="text" required>
+        </label>
+        
+        </div>
+    </fieldset>
+    </br>
+    <div class="termos">
+        <input type="checkbox" id="termos">
+        <label for="termos">Eu declaro que li e concordo com os <a href=""> termos de uso</a></label>
+    </br></br></br>
+        <input type="submit" name="cadastrar" value="Cadastrar" class="cadastrar">
+        <input type="submit" name="cancelar" value="Cancelar" class="cancelar" src="google.com.br">
+    </div>
+    </form>
+
+
+
+
+</body>
+
+
+</html>
